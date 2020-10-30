@@ -1,0 +1,24 @@
+.card {
+  border: 4px solid lightgrey;
+  border-radius: 0.25rem;
+  width: 250px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.card > img {
+  width: 200px;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.discount {
+  color: red;
+  text-transform: uppercase;
+}

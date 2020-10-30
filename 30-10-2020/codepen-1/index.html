@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda de zapatos</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <button id="reset-button">Mostrar todos los zapatos</button>
+    <button id="brand-button">Mostrar solo SUPERGA</button>
+
+    <label for="currency">Selecciona tu moneda</label>
+    <select name="currency" id="currency">
+      <option value="eur" selected>EUR (€)</option>
+      <option value="usd">USD ($)</option>
+      <option value="mad">Dírham (درهم)</option>
+    </select>
+
+    <div id="shoes" class="container"></div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
