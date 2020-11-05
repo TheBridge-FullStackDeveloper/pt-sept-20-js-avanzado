@@ -101,9 +101,8 @@ Ejemplo sencillo
 
 - El paradigma declarativo es una forma de pensar orientada a la abstracción de las funcionalidades. Nos centramos en QUÉ hacen las funciones, no en el CÓMO lo hacen. Los detalles de la implementación se encuentran enterrados en dichas abstracciones.
 
-- Ejemplo de ejercicio sencillo realizado de forma imperativa y de forma declarativa
-* FizzBuzz
-Dada una lista de números devuelve una array de números donde todos los múltiplos de 3, en lugar del número devuelva 'fizz', los múltiplos de 5 devuelvan 'buzz' y los múltiplos de 3 y de 5 'fizzbuzz'
+Ejemplo de ejercicio sencillo realizado de forma imperativa y de forma declarativa
+* FizzBuzz: dada una lista de números devuelve una array de números donde todos los múltiplos de 3, en lugar del número devuelva 'fizz', los múltiplos de 5 devuelvan 'buzz' y los múltiplos de 3 y de 5 'fizzbuzz'
 
 - Vamos a crear primero un array
 ```js
