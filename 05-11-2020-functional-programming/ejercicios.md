@@ -18,9 +18,9 @@ El procedimiento a seguir será el mismo que la vez anterior. Ejercicios más se
 6. Crea una función que recibe una cadena y devuelve esa cadena con la primera y última letra en mayúsculas.
 
 7. Crea una función que reciba una lista de números y una lista con el abecedario y devuelva una nueva lista de tuplas donde las tuplas tendrán como primer valor el número de la primera lista que corresponda a la posición y el segundo valor la letra del abecedario que corresponda en posición por el primer valor. Si necesitas funciones auxiliares para abordar el problema, puedes hacerlas, pero recuerda las que ya tienes hechas. Recuerda la regla: NO TE REPITAS.
-Ejemplo: fn([1, 4, 1], ['a', 'b', 'c', 'd',...]) => [[1, 'b'], [4, 'e'], [1, 'b']]
+- Ejemplo: fn([1, 4, 1], ['a', 'b', 'c', 'd',...]) => [[1, 'b'], [4, 'e'], [1, 'b']]
 
 8. Crea una función que reciba una cadena y devuelva la cadena con todas las letras pares en mayúsculas y el string del revés: fn('hola') => 'aLoH'
 
 9. Crea una función que reciba dos arrays, un array con letras y otro array con el abecedario. La función debe calcular la media de las posiciones de las letras del primer array respecto del segundo y sacar la letra que corresponda a la posición indicada por la media dentro del abecedario.
-Ejemplo: fn(['a', 'c', 'e'], ['a', 'b', 'c', 'd', 'e', ...]) => a es posición 0 en abecedario, c es posición 2 y e es posición 4. Sumadas las posiciones es 6 y la media es 2. En el abecedario la posición 2 es la c. Así que esa es la respuesta, 'c'
+- Ejemplo: fn(['a', 'c', 'e'], ['a', 'b', 'c', 'd', 'e', ...]) => a es posición 0 en abecedario, c es posición 2 y e es posición 4. Sumadas las posiciones es 6 y la media es 2. En el abecedario la posición 2 es la c. Así que esa es la respuesta, 'c'
