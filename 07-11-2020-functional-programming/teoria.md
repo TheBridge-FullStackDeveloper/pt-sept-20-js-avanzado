@@ -43,7 +43,7 @@ Es importante recalcar también, que cuando tenemos la definición del destructu
 ## Valores por defecto en el destructuring
 Podemos indicar valores por defecto cuando hacemos destructuring para el caso de que las propiedades o los elementos no existan. Es importante recalcar que el lenguaje solo usará el valor por defecto con UNDEFINED.
 
-La sintáxis es muy sencilla.
+La sintaxis es muy sencilla.
 ```js
 const obj = { a: 1, b: 2 }
 
@@ -75,7 +75,7 @@ const { a: uno } = obj
 console.log(uno) // 1
 ```
 
-La sintáxis es con dos puntos justo después de la variable que estamos creando. Cuando hacemos esto, el lenguaje NO crea la variable "a", crea en su lugar la variable "uno". Si intentásemos mostrar "a" tras asignarle el alias el intérprete nos tiraría error debido a que "a" no existe y no es posible acceder al valor de una variable sin declarar.
+La sintaxis es con dos puntos justo después de la variable que estamos creando. Cuando hacemos esto, el lenguaje NO crea la variable "a", crea en su lugar la variable "uno". Si intentásemos mostrar "a" tras asignarle el alias el intérprete nos tiraría error debido a que "a" no existe y no es posible acceder al valor de una variable sin declarar.
 
 Para el caso de los arrays, debido a que importa la posición y no el nombre para obtener el valor, al poder poner cualquier nombre a las variables que creamos al hacer el destructuring, eso es similar a crear un alias, así que no tenemos alias cuando hacemos destructuring en arrays como sí tenemos al hacerlo con los objetos.
 
@@ -83,7 +83,7 @@ Para el caso de los arrays, debido a que importa la posición y no el nombre par
 ## Spread operator
 El spread operator es un atajo que nos permite esparcir las propiedades o elementos de un objeto o de un array (No modificamos el objeto original)
 
-Su sintáxis es con tres puntos delante del objeto o del array.
+Su sintaxis es con tres puntos delante del objeto o del array.
 
 ```js
 const obj = { a: 1, b: 2 }
