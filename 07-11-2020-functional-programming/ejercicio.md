@@ -7,7 +7,7 @@ Resuelve los ejercicios de la manera más declarativa posible y siempre que pued
 COMPOSE
 ```js
 const compose = (...fns) => value =>
-  fns.reverse().reduce((arg, fn) => fn(arg), value)
+  [...fns].reverse().reduce((arg, fn) => fn(arg), value)
 ```
 
 ## Ejercicios:
