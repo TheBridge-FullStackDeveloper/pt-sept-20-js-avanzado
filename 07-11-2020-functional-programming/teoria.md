@@ -281,7 +281,7 @@ Esta función currificada recibe por una parte una lista de funciones y por otra
 
 ```js
 const compose = (...fns) => value =>
-  fns.reverse().reduce((arg, fn) => fn(arg), value)
+  [...fns].reverse().reduce((arg, fn) => fn(arg), value)
 ```
 
 Vamos a ver un ejemplo sencillo para entender cómo usar esta función:
