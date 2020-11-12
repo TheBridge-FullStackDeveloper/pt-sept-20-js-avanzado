@@ -1,0 +1,33 @@
+#show {
+  margin-bottom: 2rem;
+}
+
+#loader {
+  width: 400px;
+  height: 20px;
+  background-color: lightgrey;
+  border-radius: 4px;
+  position: relative;
+}
+
+#bar {
+  background-color: #26a65b;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 20px;
+  border-radius: 4px;
+  width: 100%;
+
+  animation-name: progress;
+  animation-duration: 4s;
+}
+
+@keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
