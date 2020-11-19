@@ -1,4 +1,4 @@
-# Ejercicio
+# Ejercicio
 
 1. Crea una función `isPalindrome` que compruebe que un string que pasemos por argumento es igual leido en una dirección que en otra.
 
@@ -12,7 +12,7 @@ isPalindrome('nadan') // true
 isPalindrome('plane') // false
 ```
 
-2. Mejora la función `isPalíndrome` para que acepte frases sin tener en cuenta los espacios:
+2. Mejora la función `isPalindrome` para que acepte frases sin tener en cuenta los espacios:
 
 ```
 isPalindrome('anita lava latina)
