@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0,700;1,400&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+/* Utility classes */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+/* HTML element classes */
+.cards {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.card {
+  margin: 1rem;
+  border: 1px solid lightgray;
+  border-top-width: 2px;
+  border-left-width: 2px;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  max-width: 300px;
+  width: 100%;
+  box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
+  text-align: center;
+
+  transition: transform 200ms ease-in-out;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.header {
+}
+
+.title {
+}
+
+.status {
+}
+
+.picture {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.info {
+  border-bottom: 2px solid lightgray;
+  border-radius: 0.5rem;
+  padding: 0 1rem 0.5rem 1rem;
+}
+
+.species {
+}
+
+.gender {
+}
+
+.location {
+}
