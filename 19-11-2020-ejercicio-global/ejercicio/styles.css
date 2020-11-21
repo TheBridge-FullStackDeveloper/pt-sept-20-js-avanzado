@@ -29,6 +29,16 @@ h6 {
   font-weight: 400;
 }
 
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
 /* HTML element classes */
 .cards {
   display: flex;
@@ -63,6 +73,7 @@ h6 {
 }
 
 .title {
+  padding-right: 0.5rem;
 }
 
 .status {
