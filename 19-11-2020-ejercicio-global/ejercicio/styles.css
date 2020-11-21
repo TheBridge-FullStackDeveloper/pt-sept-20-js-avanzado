@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0,700;1,400&display=swap');
 
 body {
-  margin: 0;
+  margin: 0; 
   font-family: 'Roboto', sans-serif;
+  padding-bottom: 1rem;
 }
 
 h1,
@@ -21,8 +22,23 @@ h6 {
   justify-content: space-between;
 }
 
+.column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
 .mb-1 {
   margin-bottom: 1rem;
+}
+
+.mb-05 {
+  margin-bottom: 0.5rem;
 }
 
 .regular {
@@ -39,13 +55,49 @@ h6 {
   text-transform: capitalize;
 }
 
+.text-right {
+  text-align: right;
+}
+
+.link {
+  color: #317589a1;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  transition: all 200ms ease-in-out;
+  display: inline-block;
+}
+
+.link:hover {
+  color: coral;
+  transform: scale(1.1);
+}
+
+.link-button {
+  background-color: #317589a1;
+  padding: 0.5rem 0.75rem;
+  border-radius: 50%;
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.link-button:hover {
+  color: white;
+  background-color: coral;
+  transform: scale(1.1);
+}
+
 /* HTML element classes */
 .cards {
   display: flex;
   align-items: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
   padding: 1rem;
   box-sizing: border-box;
+  width: 100%;
 }
 
 .card {
@@ -67,6 +119,10 @@ h6 {
 .card:hover {
   cursor: pointer;
   transform: scale(1.1);
+}
+
+.card-big {
+  max-width: 400px;
 }
 
 .header {
@@ -99,4 +155,15 @@ h6 {
 }
 
 .location {
+}
+
+.load-more {
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: #317589a1;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  border: 0;
+  cursor: pointer;
 }

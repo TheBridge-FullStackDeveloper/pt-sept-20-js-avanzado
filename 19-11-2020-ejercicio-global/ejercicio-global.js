@@ -481,3 +481,59 @@ function getCharacters() {
 
 const characters = getCharacters();
 // De aquí para abajo mantenemos lo que teníamos para pintar...
+
+// 4. Como siguiente paso vamos a consumir la API real de Rick y Morty dentro de nuestro código.
+const characterUrl = 'https://rickandmortyapi.com/api/character';
+
+// Esto va a ocurrir dentro de la función:
+
+function getCharacters() {
+  // Aquí haremos el fetch de los personajes...
+
+  // Suponemos que tenemos el formateo hecho
+  const formattedCharacters = [];
+  return formattedCharacters;
+}
+
+// 5. Crear un Link en las cartas de personajes que tengan como href un HTML
+// al que se lleven la id del personaje cuando redirijan (como query param)
+
+<a href="character.html?id=${character.id}">Ver personaje</a>;
+
+// El html se llamará character.html. En este archivo maquetaremos una carta de personaje parecida
+// a la anterior y que use los mismos datos.
+
+// Como ya sabrás, tendrás que hacer un fetch en esta nueva página a UN SOLO PERSONAJE usando
+// la id que viene como parámetro en la url.
+
+function getSingleCharacter() {
+  // Sacamos la id del personaje de la URL del front
+  const id = new URLSearchParams(window.location.search).get('id');
+
+  // Hacemos la petición a la url del personaje...
+  const url = `https://rickandmortyapi.com/api/character/${id}`;
+
+  // A partir de aquí haremos el fetch de un solo personaje usando la nueva URL
+  // y pintaremos su carta única en la nueva página
+}
+
+//
+// 6. Como hemos visto, en la página principal index.html hemos cargado los personajes de la API.
+// La respuesta de la API tiene un campo .info aparte de .results
+
+const data = {
+  info: {
+    count: 671,
+    next: 'https://rickandmortyapi.com/api/character?page=2',
+    pages: 34,
+    prev: null,
+  },
+  results: [{}],
+};
+
+// Vamos a utilizar el campo info.next para sacar la siguiente URL a la que vamos a pedir personajes.
+// Crearemos un botón CARGAR MÁS al final de toda la lista de personajes que cuando sea clickado, haga
+// una petición al nuevo endpoint https://rickandmortyapi.com/api/character?page=2 y meta los nuevos 
+// personajes en el array que ya teníamos antes.
+
+// Tras esto, los pintaremos consecutivamente.
