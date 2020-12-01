@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+/* Definimos una clase para poner ancho máximo en nuestras gráficas */
+.ct-chart-width {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.ct-series-b > .ct-line {
+  stroke: blue;
+}
