@@ -11,8 +11,15 @@ const drawLineGraph = (labels, series, selector) => {
     series,
   };
 
-  new Chartist.Line(selector, data, {
+  const options = {
     lineSmooth: Chartist.Interpolation.step(),
+    classNames: {
+      line: 'ct-line custom-line',
+    },
+  };
+
+  new Chartist.Line(selector, data, options, {
+    ['max-width: 900px']: {},
   });
 };
 
@@ -32,7 +39,11 @@ const drawFilmsGraph = (films) => {
   const titles = films.map((data) => data.title);
   const publishYears = films.map((data) => data.year);
 
-  drawLineGraph(titles, [publishYears], '#films-chart');
+  drawLineGraph(
+    titles,
+    [publishYears, [1980, 1994, 1997, 2001]],
+    '#films-chart'
+  );
 };
 
 const start = () => {

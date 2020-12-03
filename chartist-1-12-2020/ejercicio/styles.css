@@ -12,3 +12,11 @@ body {
 .ct-point {
   stroke-width: 20px;
 }
+
+/* Editamos los PIES */
+.ct-chart-donut .ct-label {
+  fill: black;
+}
+.ct-series-c .ct-slice-pie {
+  fill: #1d2f6f;
+}
