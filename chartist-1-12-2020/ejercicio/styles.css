@@ -4,12 +4,11 @@ body {
 }
 
 /* Definimos una clase para poner ancho máximo en nuestras gráficas */
-.ct-chart-width {
+.ct-chart {
   max-width: 750px;
   margin: 0 auto;
 }
 
-.ct-series-b > .ct-line {
-  stroke: blue;
+.ct-point {
+  stroke-width: 20px;
 }
-
